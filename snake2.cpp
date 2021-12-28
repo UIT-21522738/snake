@@ -15,9 +15,12 @@ void vetuong();
 void taoran();
 void veran();
 void dichuyen(int x, int y);
+void in();
 //chương trình chính
 int main(){
     game();
+	_getch();
+	in();
 }
 
 // hàm chạy game
@@ -148,4 +151,6 @@ void dichuyen(int x, int y)
 	td_x[0] = x;
 	td_y[0] = y;
 }
-
+void in(){
+	cout << "test";
+}
