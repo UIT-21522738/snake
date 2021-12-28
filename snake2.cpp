@@ -18,6 +18,7 @@ void dichuyen(int x, int y);
 //chương trình chính
 int main(){
     game();
+	_getch();
 }
 
 // hàm chạy game
