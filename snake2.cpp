@@ -8,6 +8,7 @@ using namespace std;
 int td_x[100] = {0}, td_y[100] = {0};
 // khoi tao do dai cua ran la 4
 int do_dai = 4;
+int vd1 = 0;
 //------------------------------------
 void game();
 void gotoxy( int column, int line );
